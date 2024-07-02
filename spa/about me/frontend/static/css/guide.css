@@ -1,0 +1,35 @@
+.guidepage{
+    min-height: 100vh;
+    width: calc(100vw - 200px);
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.guidetitle{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hom{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.time{
+    margin: 30px;
+}
+
+/* responsive */
+
+@media (width<650px) {
+    .guidepage{
+        width: 100vw;
+    }
+}
+@media (width<380px) {
+    .guidetitle{
+        font-size: 2rem;
+    }
+}

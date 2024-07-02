@@ -1,0 +1,53 @@
+.infopage{
+    min-height: 100vh;
+    width: calc(100vw - 200px);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+}
+.about{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infopage>div>p{
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+}
+.skills{
+    display: flex;
+    /* flex-wrap: wrap; */
+    max-width: 100vw;
+    overflow: scroll;
+}
+.skill{
+    margin: 20px;
+}
+.skillstitle{
+    font-size: 3rem;
+}
+.specialtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.byapar,.tmdbclone{
+    position: relative;
+    z-index: 100;
+    text-decoration: none;
+    color: rgb(2, 130, 130);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+/* responsive */
+
+@media (width<650px) {
+    .infopage{
+        width: 100vw;
+    }
+}
